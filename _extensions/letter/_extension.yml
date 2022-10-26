@@ -1,5 +1,5 @@
 title: Letter Format Template
-author: Mickaël Canouil
+author: Randall Pruim
 version: 0.1.0
 contributes:
   formats:
@@ -9,9 +9,9 @@ contributes:
     pdf:
       documentclass: letter
       geometry:
-        - "margin=1in"
+        - "margin=1.2in"
         - "bottom=1in"
-        - "left=1in"
+        - "left=1.1in"
         - "right=1in"
       colorlinks: true
       template-partials:

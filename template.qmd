@@ -1,21 +1,24 @@
 ---
-author:
-  - name: John Doe
+title: Untitled
+format:
+  calvin-letter-pdf: default
+author: 
+  - name: John Calvin 
     affiliation:
-      - name: Dummy org
-        department: Cool Dep
-        address: Somewhere
-        city: Magic city
-        country: best one
-        postal-code: 9999
+      - name: Calvin University 
+        department: Mathematics and Statistics
+        address: 3201 Burton St SE
+        city: Grand Rapids, MI 
+        country: US 
+        postal-code: 49546
 address:
-  - Director Doe & Co
-  - 35 Anthony Road
-  - Newport
-  - Ipswich IP3 5RT
-subject: collaboration
+  - Ms. Recipient
+  - 123 Sesame Street 
+  - Holywood, CA 00000
+date: last-modified
+subject: subject
 opening: "Dear Sir or Madam,"
-closing: "Yours Faithfully,"
+closing: "Sincerely,"
 cc:
   - Recipient 1
   - Recipient 2
@@ -23,8 +26,8 @@ encl:
   - Enclosure 1
   - Enclosure 2
 ps: |
-  PS: Lorem ipsum dolor sit amet, *consectetur* adipiscing elit.
-format: letter-pdf
+  PS: Quidquid latine dictum sit altum videtur.
+
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin mollis dolor vitae tristique eleifend. Quisque non ipsum sit amet velit malesuada consectetur. Praesent vel facilisis leo. Sed facilisis varius orci, ut aliquam lorem malesuada in. Morbi nec purus at nisi fringilla varius non ut dui. Pellentesque bibendum sapien velit. Nulla purus justo, congue eget enim a, elementum sollicitudin eros. Cras porta augue ligula, vel adipiscing odio ullamcorper eu. In tincidunt nisi sit amet tincidunt tincidunt. Maecenas elementum neque eget dolor [egestas fringilla](http://example.com):
