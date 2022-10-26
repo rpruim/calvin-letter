@@ -1,0 +1,32 @@
+
+\ProvidesPackage{mathstat}
+\RequirePackage{graphicx}
+\RequirePackage{watermark}
+% \RequirePackage[top=1in]{geometry}
+
+%\ProcessOptions*
+
+\newenvironment{plainLetter}{%
+\parindent=0pt
+\parskip=5pt
+\thispagestyle{empty}
+%\vspace*{.5in}
+}{%
+\newpage
+}
+\newenvironment{letter}{%
+\parindent=0pt
+\parskip=5pt
+\thiswatermark{%
+\includegraphics[page=1,viewport=1.25in 10.025in 8.5in 11in]{/Users/rpruim/tex/inputs/dept/Letterhead2019}%
+}
+\thispagestyle{empty}
+%\vspace*{.5in}
+}{%
+\newpage
+}
+
+\newcommand{\signature}{%
+\hspace*{-.11in}\includegraphics[height=.6in,angle=-5]{/Users/rpruim/tex/inputs/isri/pruimSig02}
+\vspace{-.25in}
+}

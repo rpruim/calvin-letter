@@ -4,29 +4,29 @@ format:
   calvin-letter-pdf: default
 author: 
   - name: John Calvin 
-    affiliation:
-      - name: Calvin University 
-        department: Mathematics and Statistics
-        address: 3201 Burton St SE
-        city: Grand Rapids, MI 
-        country: US 
-        postal-code: 49546
+    # affiliation:
+    #   - name: Calvin University 
+    #     department: Mathematics and Statistics
+    #     address: 3201 Burton St SE
+    #     city: Grand Rapids, MI 
+    #     country: US 
+    #     postal-code: 49546
 address:
-  - Ms. Recipient
+  - Jo Recipient
   - 123 Sesame Street 
   - Holywood, CA 00000
 date: last-modified
-subject: subject
+# subject: subject
 opening: "Dear Sir or Madam,"
 closing: "Sincerely,"
-cc:
-  - Recipient 1
-  - Recipient 2
-encl:
-  - Enclosure 1
-  - Enclosure 2
-ps: |
-  PS: Quidquid latine dictum sit altum videtur.
+# cc:
+#   - Recipient 1
+#   - Recipient 2
+# encl:
+#   - Enclosure 1
+#   - Enclosure 2
+# ps: |
+#   PS: Quidquid latine dictum sit altum videtur.
 
 ---
 

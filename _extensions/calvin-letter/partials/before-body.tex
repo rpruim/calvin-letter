@@ -1,0 +1,20 @@
+
+
+$if(background)$
+\backgroundsetup{%
+  scale=1,       %% change accordingly
+  angle=0,       %% change accordingly
+  opacity=1,     %% change accordingly
+  color=black,   %% change accordingly
+  contents={\includegraphics[width = \paperwidth, height = \paperheight, keepaspectratio]{$background$}}
+}
+$endif$
+
+$if(author)$
+\signature{$author$}
+\address{${ by-author:_authors.tex() }}
+$endif$
+\begin{letter}{$for(address)$$address$$sep$\\$endfor$$if(subject)$\\ ~ \\Subject: $subject$$endif$}
+$if(opening)$
+\opening{$opening$}
+$endif$
