@@ -16,15 +16,17 @@ address:
   - 123 Sesame Street 
   - Holywood, CA 00000
 date: last-modified
-# subject: subject
+watermark: "None"
+letterhead: "MathStatLetterhead2019.pdf"
+subject: "Things and stuff"
 opening: "Dear Sir or Madam,"
 closing: "Sincerely,"
-# cc:
-#   - Recipient 1
-#   - Recipient 2
-# encl:
-#   - Enclosure 1
-#   - Enclosure 2
+cc:
+  - Recipient 1
+  - Recipient 2
+encl:
+  - Enclosure 1
+  - Enclosure 2
 # ps: |
 #   PS: Quidquid latine dictum sit altum videtur.
 
@@ -35,3 +37,5 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin mollis dolor vita
 > Nullam eget dapibus quam, sit amet sagittis magna. Nam tincidunt, orci ac imperdiet ultricies, neque metus ultrices quam, id gravida augue lacus ac leo. 
 
 Vestibulum id sodales lectus, sed scelerisque quam. Nullam auctor mi et feugiat commodo. Duis interdum imperdiet nulla, vitae bibendum eros placerat non. Cras ornare, risus in faucibus malesuada, libero sem fringilla quam, ut luctus enim sapien eget dolor.
+
+

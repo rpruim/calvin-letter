@@ -1,14 +1,15 @@
 
 
-$if(background)$
+$if(letterhead)$
 \backgroundsetup{%
   scale=1,       %% change accordingly
   angle=0,       %% change accordingly
   opacity=1,     %% change accordingly
   color=black,   %% change accordingly
-  contents={\includegraphics[width = \paperwidth, height = \paperheight, keepaspectratio]{$background$}}
+  contents={\includegraphics[width = \paperwidth, height = \paperheight, keepaspectratio]{$letterhead$}}
 }
 $endif$
+
 
 $if(author)$
 \signature{$author$}

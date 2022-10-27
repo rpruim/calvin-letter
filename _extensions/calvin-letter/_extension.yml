@@ -10,13 +10,13 @@ contributes:
     pdf:
       documentclass: letter
       geometry:
-        - "top=2.0in"
+        - "top=2.3in"
         - "bottom=1in"
-        - "left=1.1in"
+        - "left=1in"
         - "right=1in"
       include-in-header: 
         - "partials/preamble.tex"
-      background: "Letterhead2019.pdf"
+      watermark: ""
       colorlinks: true
       template-partials:
         - "partials/before-body.tex"
