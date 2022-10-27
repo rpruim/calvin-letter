@@ -17,16 +17,16 @@ address:
   - Holywood, CA 00000
 date: last-modified
 watermark: "None"
-letterhead: "MathStatLetterhead2019.pdf"
-subject: "Things and stuff"
+# letterhead: "MathStatLetterhead2019.pdf"
+# subject: "Things and stuff"
 opening: "Dear Sir or Madam,"
 closing: "Sincerely,"
-cc:
-  - Recipient 1
-  - Recipient 2
-encl:
-  - Enclosure 1
-  - Enclosure 2
+# cc:
+#   - Recipient 1
+#   - Recipient 2
+# encl:
+#   - Enclosure 1
+#   - Enclosure 2
 # ps: |
 #   PS: Quidquid latine dictum sit altum videtur.
 
